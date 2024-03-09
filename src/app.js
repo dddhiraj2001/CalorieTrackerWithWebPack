@@ -19,8 +19,8 @@ class App{
     constructor(){
         this._tracker = new CalorieTracker();
         this._loadEventListeners();
-        this._tracker.loadItems('meals');
-        this._tracker.loadItems('workouts')
+        this._tracker.loadItems();
+        
         
     }   
     // _newItem(){
